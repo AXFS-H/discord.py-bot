@@ -1,0 +1,2 @@
+api_key = 'YOUR TENOR API KEY'
+token = 'YOUR DISCORD TOKEN'
