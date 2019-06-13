@@ -27,7 +27,7 @@ async def on_message(message):
       results = json.loads(req.content)["results"]
       choice = random.choice(results)
       fileUrl = str(choice.get("media")[0].get("tinygif").get("url"))
-      embed = discord.Embed(title="Ricardo is dancing", color=0xe63e58).set_footer(text="Ricardo Milos", icon_url="https://i.imgur.com/VJ8oioL.jpg").set_image(url=fileUrl)
+      embed = discord.Embed(title="Ricardo is dancing :man_dancing: ", color=0xe63e58).set_footer(text="Ricardo Milos", icon_url="https://i.imgur.com/VJ8oioL.jpg").set_image(url=fileUrl)
       return await message.channel.send(embed=embed)
     else:
       return await message.channel.send("Sorry, something went wrong. Please try again")
