@@ -1,3 +1,4 @@
 config.txt
 __pycache__/
 .vscode/
+.idea/
